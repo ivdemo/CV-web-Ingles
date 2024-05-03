@@ -4,13 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poetsen+One&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../css/estilos.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 </head>
-<body>
+<body class="poetsen-one-regular">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     <header>
         <ul class="nav justify-content-end">
+            <li class="nav-item">
+                <a class="nav-link" href="../view/en/experience.html">Ingles</a>
+            </li>
             <li class="nav-item">
               <a class="nav-link active" aria-current="page" href="../index.html">¿Quien soy?</a>
             </li>
@@ -20,24 +26,48 @@
           </ul>
     </header>
     <h1 class="center">Experiencia</h1>
-    <section class="flex center">
-        <div class="col2 borde">
+    <section class="flex1 center">
+        <div class="col2 borde fondo">
             <div>
                 <h2>Actividades laborales</h2>
             </div>
             <div>
                 <p>Practicas de convalidación de CFGM en Apalan Infor S.L.U.</p>
             </div>
+            <div>
+                <iframe class="redondo maps" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2993.5643135319283!2d2.1416193765428244!3d41.38354969623249!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12a4a28948e52365%3A0xead8906195977289!2sApalan%20Infor%20S.%20L.%20U.!5e0!3m2!1ses!2ses!4v1714747577525!5m2!1ses!2ses" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
         </div>
-        <div class="col2 borde">
+        <div class="col2 borde fondo">
             <div>
                 <h2>Actividades no laborales</h2>
             </div>
             <div>
+                <p>Clases particulares de matematicas a alumnos de 1º y 2º de Educación Secundaria Obligatoria</p>
                 <p>Proyecto de programacion con Arduino para diseñar un sensor de medición de CO2 que hay en un aula escolar</p>
-                <p>Clases particulares de matematicas a alumnos de 1o y 2o de Educación Secundaria Obligatoria</p>
+            </div>
+            <div class="flex1">
+                <div class="col2">
+                    <img class="redondo arduino" src="../img/proyecto arduino 1.jpg" alt="">
+                </div>
+                <div class="col2">
+                    <img class="redondo arduino" src="../img/proyecto arduino 2.jpg" alt="">
+                </div>
             </div>
         </div>
     </section>
+    <footer>
+        <ul class="nav justify-content-end">
+            <li class="nav-item">
+                <a class="nav-link" href="../view/en/experience.html">Ingles</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="../index.html">¿Quien soy?</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./estudios.html">Estudios</a>
+            </li>
+          </ul>
+    </footer>
 </body>
 </html>

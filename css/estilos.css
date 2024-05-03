@@ -1,4 +1,10 @@
 
+.poetsen-one-regular {
+    font-family: "Poetsen One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
 .col2 {
     width: 50%;
 }
@@ -11,12 +17,20 @@
     width: 25%;
 }
 
+.col4aficion{
+    width: 25%;
+}
+
 .col5 {
     width: 20%;
 }
 
 .center {
     text-align: center;
+}
+
+.flex1 {
+    display: flex;
 }
 
 .flex {
@@ -56,4 +70,76 @@
 
 header {
     background-color: rgb(53, 203, 156);
+}
+
+footer {
+    background-color: rgb(53, 203, 156);
+}
+
+.fondo{
+    background-color: aquamarine;
+}
+
+.sites{
+    width: 5%;
+}
+
+.redondo{
+    border-radius: 30px;
+}
+
+.ivan {
+    width: 20%;
+}
+
+.maps{
+    width: 80%;
+}
+
+.video{
+    width: 30%;
+}
+
+.arduino{
+    width: 90%;
+}
+
+
+@media screen and (max-width: 500px){
+    .col2{
+        width: 100%;
+    }
+
+    .col3{
+        width: 50%;
+    }
+
+    .col4{
+        width: 100%;
+    }
+
+    .col4aficion{
+        width: 200%;
+    }
+
+    .flex1{
+        display: block;
+    }
+
+    .imgcol4 {
+        width: 50%;
+    }
+
+    .maps{
+        width: 90%;
+    }
+
+    .video{
+        width: 90%;
+    }
+
+    .arduino{
+        width: 90%;
+        margin-bottom: 5%;
+    }
 }
